@@ -2,201 +2,250 @@
 <html lang="en">
 
 <!-- doccure/patient-dashboard.html  30 Nov 2019 04:12:16 GMT -->
+
 <head>
-		<meta charset="utf-8">
-		<title>Doccure</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<meta charset="utf-8">
+	<title>Doccure</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-		<!-- Favicons -->
-		<link href="assets/img/favicon.png" rel="icon">
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 
-		<!-- Main CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
 
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
 			<script src="assets/js/html5shiv.min.js"></script>
 			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
 
-	</head>
-	<body>
+</head>
 
-		<!-- Main Wrapper -->
-		<div class="main-wrapper">
+<body>
 
-			<!-- Header -->
-			<header class="header">
-				<nav class="navbar navbar-expand-lg header-nav">
-					<div class="navbar-header">
-						<a id="mobile_btn" href="javascript:void(0);">
-							<span class="bar-icon">
-								<span></span>
-								<span></span>
-								<span></span>
-							</span>
-						</a>
-						<a href="index.html" class="navbar-brand logo">
+	<!-- Main Wrapper -->
+	<div class="main-wrapper">
+
+		<!-- Header -->
+		<header class="header">
+			<nav class="navbar navbar-expand-lg header-nav">
+				<div class="navbar-header">
+					<a id="mobile_btn" href="javascript:void(0);">
+						<span class="bar-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					</a>
+					<a href="index.html" class="navbar-brand logo">
+						<h1 class="font-weight-bold">DEVS</h1>
+					</a>
+				</div>
+				<div class="main-menu-wrapper">
+					<div class="menu-header">
+						<a href="index.html" class="menu-logo">
 							<h1 class="font-weight-bold">DEVS</h1>
 						</a>
+						<a id="menu_close" class="menu-close" href="javascript:void(0);">
+							<i class="fas fa-times"></i>
+						</a>
 					</div>
-					<div class="main-menu-wrapper">
-						<div class="menu-header">
-							<a href="index.html" class="menu-logo">
-								<h1 class="font-weight-bold">DEVS</h1>
-							</a>
-							<a id="menu_close" class="menu-close" href="javascript:void(0);">
-								<i class="fas fa-times"></i>
-							</a>
-						</div>
-						<ul class="main-nav">
-							<li class="active"><a href="patient-dashboard.html">Dashboard</a></li>
-							<li><a href="inquiry.html">inquiry</a></li>
-							<li><a href="checkout.html">Checkout</a></li>
-						</ul>
-					</div>
-					<ul class="nav header-navbar-rht">
-						<li class="nav-item contact-item">
-							<div class="header-contact-img">
-								<i class="far fa-hospital"></i>
-							</div>
-							<div class="header-contact-detail">
-								<p class="contact-header">Contact</p>
-								<p class="contact-info-header">  www.devs.com</p>
-							</div>
-						</li>
-
-						<!-- User Menu -->
-						<li class="nav-item dropdown has-arrow logged-item">
-							<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-								<span class="user-img">
-									<img class="rounded-circle" src="assets/img/patients/patient.jpg" width="31" alt="Ryan Taylor">
-								</span>
-							</a>
-							<div class="dropdown-menu dropdown-menu-right">
-								<div class="user-header">
-									<div class="avatar avatar-sm">
-										<img src="assets/img/patients/patient.jpg" alt="User Image" class="avatar-img rounded-circle">
-									</div>
-									<div class="user-text">
-										<h6>Richard Wilson</h6>
-										<p class="text-muted mb-0">Patient</p>
-									</div>
-								</div>
-								<a class="dropdown-item" href="patient-dashboard.html">Dashboard</a>
-								<a class="dropdown-item" href="profile-settings.html">Profile Settings</a>
-								<a class="dropdown-item" href="change-password.html">Change Password</a>
-								<a class="dropdown-item" href="login.html">Logout</a>
-							</div>
-						</li>
-						<!-- /User Menu -->
-
+					<ul class="main-nav">
+						<li class="active"><a href="patient-dashboard.html">Dashboard</a></li>
+						<li><a href="inquiry.html">inquiry</a></li>
+						<li><a href="checkout.html">Checkout</a></li>
 					</ul>
-				</nav>
-			</header>
-			<!-- /Header -->
-
-			<!-- Breadcrumb -->
-			<div class="breadcrumb-bar">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-md-12 col-12">
-							<nav aria-label="breadcrumb" class="page-breadcrumb">
-								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-								</ol>
-							</nav>
-							<h2 class="breadcrumb-title">Dashboard</h2>
+				</div>
+				<ul class="nav header-navbar-rht">
+					<li class="nav-item contact-item">
+						<div class="header-contact-img">
+							<i class="far fa-hospital"></i>
 						</div>
+						<div class="header-contact-detail">
+							<p class="contact-header">Contact</p>
+							<p class="contact-info-header"> www.devs.com</p>
+						</div>
+					</li>
+
+					<!-- User Menu -->
+					<li class="nav-item dropdown has-arrow logged-item">
+						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+							<span class="user-img">
+								<img class="rounded-circle" src="assets/img/patients/patient.jpg" width="31" alt="Ryan Taylor">
+							</span>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<div class="user-header">
+								<div class="avatar avatar-sm">
+									<img src="assets/img/patients/patient.jpg" alt="User Image" class="avatar-img rounded-circle">
+								</div>
+								<div class="user-text">
+									<h6>Richard Wilson</h6>
+									<p class="text-muted mb-0">Patient</p>
+								</div>
+							</div>
+							<a class="dropdown-item" href="patient-dashboard.html">Dashboard</a>
+							<a class="dropdown-item" href="profile-settings.html">Profile Settings</a>
+							<a class="dropdown-item" href="change-password.html">Change Password</a>
+							<a class="dropdown-item" href="login.html">Logout</a>
+						</div>
+					</li>
+					<!-- /User Menu -->
+
+				</ul>
+			</nav>
+		</header>
+		<!-- /Header -->
+
+		<!-- Breadcrumb -->
+		<div class="breadcrumb-bar">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-12 col-12">
+						<nav aria-label="breadcrumb" class="page-breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+							</ol>
+						</nav>
+						<h2 class="breadcrumb-title">Dashboard</h2>
 					</div>
 				</div>
 			</div>
-			<!-- /Breadcrumb -->
+		</div>
+		<!-- /Breadcrumb -->
 
-			<!-- Page Content -->
-			<div class="content">
-				<div class="container-fluid">
+		<!-- Page Content -->
+		<div class="content">
+			<div class="container-fluid">
 
-					<div class="row">
+				<div class="row">
 
-						<!-- Profile Sidebar -->
-						<div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
-							<div class="profile-sidebar">
-								<div class="widget-profile pro-widget-content">
-									<div class="profile-info-widget">
-										<a href="#" class="booking-doc-img">
-											<img src="assets/img/patients/patient.jpg" alt="User Image">
-										</a>
-										<div class="profile-det-info">
-											<h3>Richard Wilson</h3>
-											<div class="patient-details">
-												<h5><i class="fas fa-birthday-cake"></i> 24 Jul 1983, 38 years</h5>
-												<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> kimara, dar-es-salaam</h5>
-											</div>
+					<!-- Profile Sidebar -->
+					<div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+						<div class="profile-sidebar">
+							<div class="widget-profile pro-widget-content">
+								<div class="profile-info-widget">
+									<a href="#" class="booking-doc-img">
+										<img src="assets/img/patients/patient.jpg" alt="User Image">
+									</a>
+									<div class="profile-det-info">
+										<h3>Richard Wilson</h3>
+										<div class="patient-details">
+											<h5><i class="fas fa-birthday-cake"></i> 24 Jul 1983, 38 years</h5>
+											<h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> kimara, dar-es-salaam</h5>
 										</div>
 									</div>
 								</div>
-								<div class="dashboard-widget">
-									<nav class="dashboard-menu">
-										<ul>
-											<li class="active">
-												<a href="patient-dashboard.html">
-													<i class="fas fa-columns"></i>
-													<span>Dashboard</span>
-												</a>
-											</li>
-											<!-- <li>
+							</div>
+							<div class="dashboard-widget">
+								<nav class="dashboard-menu">
+									<ul>
+										<li class="active">
+											<a href="patient-dashboard.html">
+												<i class="fas fa-columns"></i>
+												<span>Dashboard</span>
+											</a>
+										</li>
+										<!-- <li>
 												<a href="favourites.html">
 													<i class="fas fa-bookmark"></i>
 													<span>Favourites</span>
 												</a>
 											</li> -->
 
-											<li>
-												<a href="profile-settings.html">
-													<i class="fas fa-user-cog"></i>
-													<span>Profile Settings</span>
-												</a>
-											</li>
-											<li>
-												<a href="change-password.html">
-													<i class="fas fa-lock"></i>
-													<span>Change Password</span>
-												</a>
-											</li>
-											<li>
-												<a href="index-2.html">
-													<i class="fas fa-sign-out-alt"></i>
-													<span>Logout</span>
-												</a>
-											</li>
-										</ul>
-									</nav>
-								</div>
-
+										<li>
+											<a href="profile-settings.html">
+												<i class="fas fa-user-cog"></i>
+												<span>Profile Settings</span>
+											</a>
+										</li>
+										<li>
+											<a href="change-password.html">
+												<i class="fas fa-lock"></i>
+												<span>Change Password</span>
+											</a>
+										</li>
+										<li>
+											<a href="index-2.html">
+												<i class="fas fa-sign-out-alt"></i>
+												<span>Logout</span>
+											</a>
+										</li>
+									</ul>
+								</nav>
 							</div>
+
 						</div>
-						<!-- / Profile Sidebar -->
+					</div>
 
-						<div class="col-md-7 col-lg-8 col-xl-9">
-							<div class="card">
-								<div class="card-body pt-0">
 
-									<!-- Tab Menu -->
-									<nav class="user-tabs mb-4">
-										<ul class="nav nav-tabs nav-tabs-bottom nav-justified">
-											<li class="nav-item">
-												<a class="nav-link active" href="#pat_appointments" data-toggle="tab">Latest Recommendations</a>
-											</li>
-											<!-- <li class="nav-item">
+					<!-- / Profile Sidebar -->
+
+					<div class="col-md-7 col-lg-8 col-xl-9">
+						<div class="row">
+
+							<div class="col-md-4 col-sm-6 ">
+								<div class="card shadow skill">
+									<div class="card-header">
+										<h4>Welcome User</h4>
+									</div>
+									<div class="card-body">
+										<p class="pb">We analyze your initial symptoms to identify
+											and recommend the best.
+										</p>
+										<a class="btn btn-danger" href="/predict" role="button">CREATE INQUIRY</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-6  py-1">
+								<div class="card shadow skill">
+									<div class="card-header">
+										<h4>Insurance Co.</h4>
+									</div>
+									<div class="card-body crdbd">
+										<p class="pw">NHIF insurances</p>
+										<p class="pw">jubilee life ltd</p>
+										<p class="pw">AAR insurance ltd</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-sm-12 py-1">
+								<div class="card shadow skill">
+									<div class="card-header">
+										<h4>Your diagnosis</h4>
+									</div>
+									<div class="card-body">
+										<p class="pw">........</p>
+										<p class="pw">...</p>
+										<p class="pw">........</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="card">
+
+							<div class="card-body pt-0">
+
+								<!-- Tab Menu -->
+								<nav class="user-tabs mb-4">
+									<ul class="nav nav-tabs nav-tabs-bottom nav-justified">
+										<li class="nav-item">
+											<a class="nav-link active" href="#pat_appointments" data-toggle="tab">Latest Recommendations</a>
+										</li>
+										<!-- <li class="nav-item">
 												<a class="nav-link" href="#pat_prescriptions" data-toggle="tab">Prescriptions</a>
 											</li>
 											<li class="nav-item">
@@ -205,243 +254,243 @@
 											<li class="nav-item">
 												<a class="nav-link" href="#pat_billing" data-toggle="tab">Billing</a>
 											</li> -->
-										</ul>
-									</nav>
-									<!-- /Tab Menu -->
+									</ul>
+								</nav>
+								<!-- /Tab Menu -->
 
-									<!-- Tab Content -->
-									<div class="tab-content pt-0">
+								<!-- Tab Content -->
+								<div class="tab-content pt-0">
 
-										<!-- Appointment Tab -->
-										<div id="pat_appointments" class="tab-pane fade show active">
-											<div class="card card-table mb-0">
-												<div class="card-body">
-													<div class="table-responsive">
-														<table class="table table-hover table-center mb-0">
-															<thead>
-																<tr>
-																	<th>Doctor</th>
-																	<th>Date</th>
-																	<th>Status</th>
-																	<th>Detail</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td>
-																		<h2 class="table-avatar">
-																			<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
-																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-01.jpg" alt="User Image">
-																			</a>
-																			<a href="doctor-profile.html">Dr. Ruby Perrin <span>Dental</span></a>
-																		</h2>
-																	</td>
-																	<td>14 Nov 2019 <span class="d-block text-info">10.00 AM</span></td>
-																	<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
-																	<td class="text-right">
-																		<div class="table-action">
-																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
-																				<i class="far fa-eye"></i> View
-																			</a>
-																		</div>
-																	</td>
-																</tr>
-																<tr>
-																	<td>
-																		<h2 class="table-avatar">
-																			<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
-																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image">
-																			</a>
-																			<a href="doctor-profile.html">Dr. Darren Elder <span>Dental</span></a>
-																		</h2>
-																	</td>
-																	<td>12 Nov 2019 <span class="d-block text-info">8.00 PM</span></td>
-																	<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
-																	<td class="text-right">
-																		<div class="table-action">
-																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
-																				<i class="far fa-eye"></i> View
-																			</a>
-																		</div>
-																	</td>
-																</tr>
-																<tr>
-																	<td>
-																		<h2 class="table-avatar">
-																			<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
-																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-03.jpg" alt="User Image">
-																			</a>
-																			<a href="doctor-profile.html">Dr. Deborah Angel <span>Cardiology</span></a>
-																		</h2>
-																	</td>
-																	<td>11 Nov 2019 <span class="d-block text-info">11.00 AM</span></td>
-																	<td><span class="badge badge-pill bg-danger-light">Cancelled</span></td>
-																	<td class="text-right">
-																		<div class="table-action">
-																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
-																				<i class="far fa-eye"></i> View
-																			</a>
-																		</div>
-																	</td>
-																</tr>
-																<tr>
-																	<td>
-																		<h2 class="table-avatar">
-																			<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
-																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-04.jpg" alt="User Image">
-																			</a>
-																			<a href="doctor-profile.html">Dr. Sofia Brient <span>Urology</span></a>
-																		</h2>
-																	</td>
-																	<td>10 Nov 2019 <span class="d-block text-info">3.00 PM</span></td>
-																	<td><span class="badge badge-pill bg-warning-light">Pending</span></td>
-																	<td class="text-right">
-																		<div class="table-action">
-																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
-																				<i class="far fa-eye"></i> View
-																			</a>
-																		</div>
-																	</td>
-																</tr>
-																<tr>
-																	<td>
-																		<h2 class="table-avatar">
-																			<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
-																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-05.jpg" alt="User Image">
-																			</a>
-																			<a href="doctor-profile.html">Dr. Marvin Campbell <span>Ophthalmology</span></a>
-																		</h2>
-																	</td>
-																	<td>9 Nov 2019 <span class="d-block text-info">7.00 PM</span></td>
-																	<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
-																	<td class="text-right">
-																		<div class="table-action">
-																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
-																				<i class="far fa-eye"></i> View
-																			</a>
-																		</div>
-																	</td>
-																</tr>
-																<tr>
-																	<td>
-																		<h2 class="table-avatar">
-																			<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
-																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-09.jpg" alt="User Image">
-																			</a>
-																			<a href="doctor-profile.html">Dr. John Gibbs <span>Dental</span></a>
-																		</h2>
-																	</td>
-																	<td>6 Nov 2019 <span class="d-block text-info">8.00 PM</span></td>
-																	<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
-																	<td class="text-right">
-																		<div class="table-action">
-																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
-																				<i class="far fa-eye"></i> View
-																			</a>
-																		</div>
-																	</td>
-																</tr>
-																<tr>
-																	<td>
-																		<h2 class="table-avatar">
-																			<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
-																				<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-10.jpg" alt="User Image">
-																			</a>
-																			<a href="doctor-profile.html">Dr. Olga Barlow  <span>Dental</span></a>
-																		</h2>
-																	</td>
-																	<td>5 Nov 2019 <span class="d-block text-info">5.00 PM</span></td>
-																	<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
-																	<td class="text-right">
-																		<div class="table-action">
-																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
-																				<i class="far fa-eye"></i> View
-																			</a>
-																		</div>
-																	</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
+									<!-- Appointment Tab -->
+									<div id="pat_appointments" class="tab-pane fade show active">
+										<div class="card card-table mb-0">
+											<div class="card-body">
+												<div class="table-responsive">
+													<table class="table table-hover table-center mb-0">
+														<thead>
+															<tr>
+																<th>Doctor</th>
+																<th>Date</th>
+																<th>Status</th>
+																<th>Detail</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>
+																	<h2 class="table-avatar">
+																		<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
+																			<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-01.jpg" alt="User Image">
+																		</a>
+																		<a href="doctor-profile.html">Dr. Ruby Perrin <span>Dental</span></a>
+																	</h2>
+																</td>
+																<td>14 Nov 2019 <span class="d-block text-info">10.00 AM</span></td>
+																<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
+																<td class="text-right">
+																	<div class="table-action">
+																		<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																			<i class="far fa-eye"></i> View
+																		</a>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<h2 class="table-avatar">
+																		<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
+																			<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image">
+																		</a>
+																		<a href="doctor-profile.html">Dr. Darren Elder <span>Dental</span></a>
+																	</h2>
+																</td>
+																<td>12 Nov 2019 <span class="d-block text-info">8.00 PM</span></td>
+																<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
+																<td class="text-right">
+																	<div class="table-action">
+																		<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																			<i class="far fa-eye"></i> View
+																		</a>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<h2 class="table-avatar">
+																		<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
+																			<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-03.jpg" alt="User Image">
+																		</a>
+																		<a href="doctor-profile.html">Dr. Deborah Angel <span>Cardiology</span></a>
+																	</h2>
+																</td>
+																<td>11 Nov 2019 <span class="d-block text-info">11.00 AM</span></td>
+																<td><span class="badge badge-pill bg-danger-light">Cancelled</span></td>
+																<td class="text-right">
+																	<div class="table-action">
+																		<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																			<i class="far fa-eye"></i> View
+																		</a>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<h2 class="table-avatar">
+																		<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
+																			<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-04.jpg" alt="User Image">
+																		</a>
+																		<a href="doctor-profile.html">Dr. Sofia Brient <span>Urology</span></a>
+																	</h2>
+																</td>
+																<td>10 Nov 2019 <span class="d-block text-info">3.00 PM</span></td>
+																<td><span class="badge badge-pill bg-warning-light">Pending</span></td>
+																<td class="text-right">
+																	<div class="table-action">
+																		<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																			<i class="far fa-eye"></i> View
+																		</a>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<h2 class="table-avatar">
+																		<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
+																			<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-05.jpg" alt="User Image">
+																		</a>
+																		<a href="doctor-profile.html">Dr. Marvin Campbell <span>Ophthalmology</span></a>
+																	</h2>
+																</td>
+																<td>9 Nov 2019 <span class="d-block text-info">7.00 PM</span></td>
+																<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
+																<td class="text-right">
+																	<div class="table-action">
+																		<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																			<i class="far fa-eye"></i> View
+																		</a>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<h2 class="table-avatar">
+																		<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
+																			<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-09.jpg" alt="User Image">
+																		</a>
+																		<a href="doctor-profile.html">Dr. John Gibbs <span>Dental</span></a>
+																	</h2>
+																</td>
+																<td>6 Nov 2019 <span class="d-block text-info">8.00 PM</span></td>
+																<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
+																<td class="text-right">
+																	<div class="table-action">
+																		<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																			<i class="far fa-eye"></i> View
+																		</a>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<h2 class="table-avatar">
+																		<a href="doctor-profile.html" class="avatar avatar-sm mr-2">
+																			<img class="avatar-img rounded-circle" src="assets/img/doctors/doctor-thumb-10.jpg" alt="User Image">
+																		</a>
+																		<a href="doctor-profile.html">Dr. Olga Barlow <span>Dental</span></a>
+																	</h2>
+																</td>
+																<td>5 Nov 2019 <span class="d-block text-info">5.00 PM</span></td>
+																<td><span class="badge badge-pill bg-success-light">Confirm</span></td>
+																<td class="text-right">
+																	<div class="table-action">
+																		<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																			<i class="far fa-eye"></i> View
+																		</a>
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
 												</div>
 											</div>
 										</div>
-
 									</div>
-									<!-- Tab Content -->
 
 								</div>
+								<!-- Tab Content -->
+
 							</div>
 						</div>
 					</div>
-
 				</div>
 
 			</div>
-			<!-- /Page Content -->
 
-			<!-- Footer -->
-			<footer class="footer">
+		</div>
+		<!-- /Page Content -->
 
-				<!-- Footer Top -->
-				<div class="footer-top">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-lg-3 col-md-6">
+		<!-- Footer -->
+		<footer class="footer">
 
-								<!-- Footer Widget -->
-								<div class="footer-widget footer-about">
-									<div class="footer-logo">
-										<h1 class="font-weight-bold">DEVS</h1>
-									</div>
-									<div class="footer-about-content">
-										<p>For any contact or information visit us on our social media </p>
-										<div class="social-icon">
-											<ul>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-												</li>
-												<li>
-													<a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
-												</li>
-											</ul>
-										</div>
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+
+							<!-- Footer Widget -->
+							<div class="footer-widget footer-about">
+								<div class="footer-logo">
+									<h1 class="font-weight-bold">DEVS</h1>
+								</div>
+								<div class="footer-about-content">
+									<p>For any contact or information visit us on our social media </p>
+									<div class="social-icon">
+										<ul>
+											<li>
+												<a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+											</li>
+											<li>
+												<a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+											</li>
+											<li>
+												<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+											</li>
+											<li>
+												<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+											</li>
+											<li>
+												<a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
+											</li>
+										</ul>
 									</div>
 								</div>
-								<!-- /Footer Widget -->
-
 							</div>
+							<!-- /Footer Widget -->
 
-							<div class="col-lg-3 col-md-6">
+						</div>
 
-								<!-- Footer Widget -->
-								<div class="footer-widget footer-menu">
-									<h2 class="footer-title">For Patients</h2>
-									<ul>
-										<li><a href="search.html"><i class="fas fa-angle-double-right"></i> get recommendations</a></li>
-										<li><a href="login.html"><i class="fas fa-angle-double-right"></i> Login</a></li>
-										<li><a href="register.html"><i class="fas fa-angle-double-right"></i> Register</a></li>
-										<li><a href="booking.html"><i class="fas fa-angle-double-right"></i> Booking</a></li>
-										<li><a href="patient-dashboard.html"><i class="fas fa-angle-double-right"></i> Patient Dashboard</a></li>
-									</ul>
-								</div>
-								<!-- /Footer Widget -->
+						<div class="col-lg-3 col-md-6">
 
+							<!-- Footer Widget -->
+							<div class="footer-widget footer-menu">
+								<h2 class="footer-title">For Patients</h2>
+								<ul>
+									<li><a href="search.html"><i class="fas fa-angle-double-right"></i> get recommendations</a></li>
+									<li><a href="login.html"><i class="fas fa-angle-double-right"></i> Login</a></li>
+									<li><a href="register.html"><i class="fas fa-angle-double-right"></i> Register</a></li>
+									<li><a href="booking.html"><i class="fas fa-angle-double-right"></i> Booking</a></li>
+									<li><a href="patient-dashboard.html"><i class="fas fa-angle-double-right"></i> Patient Dashboard</a></li>
+								</ul>
 							</div>
+							<!-- /Footer Widget -->
 
-							<div class="col-lg-3 col-md-6">
+						</div>
 
-								<!-- Footer Widget -->
-								<!-- <div class="footer-widget footer-menu">
+						<div class="col-lg-3 col-md-6">
+
+							<!-- Footer Widget -->
+							<!-- <div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Doctors</h2>
 									<ul>
 										<li><a href="appointments.html"><i class="fas fa-angle-double-right"></i> Appointments</a></li>
@@ -451,92 +500,93 @@
 										<li><a href="doctor-dashboard.html"><i class="fas fa-angle-double-right"></i> Doctor Dashboard</a></li>
 									</ul>
 								</div> -->
-								<!-- /Footer Widget -->
-
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-
-								<!-- Footer Widget -->
-								<div class="footer-widget footer-contact">
-									<h2 class="footer-title">Contact Us</h2>
-									<div class="footer-contact-info">
-										<div class="footer-address">
-											<span><i class="fas fa-map-marker-alt"></i></span>
-											<p> p.o.box 33354  kijitonyama,<br> dar-es-salaam </p>
-										</div>
-										<p>
-											<i class="fas fa-phone-alt"></i>
-											+255 315 369 5943
-										</p>
-										<p class="mb-0">
-											<i class="fas fa-envelope"></i>
-											devs@example.com
-										</p>
-									</div>
-								</div>
-								<!-- /Footer Widget -->
-
-							</div>
+							<!-- /Footer Widget -->
 
 						</div>
-					</div>
-				</div>
-				<!-- /Footer Top -->
 
-				<!-- Footer Bottom -->
-                <div class="footer-bottom">
-					<div class="container-fluid">
+						<div class="col-lg-3 col-md-6">
 
-						<!-- Copyright -->
-						<div class="copyright">
-							<div class="row">
-								<div class="col-md-6 col-lg-6">
-									<div class="copyright-text">
-										<p class="mb-0"><a href="templateshub.net">Udicti Hub</a></p>
+							<!-- Footer Widget -->
+							<div class="footer-widget footer-contact">
+								<h2 class="footer-title">Contact Us</h2>
+								<div class="footer-contact-info">
+									<div class="footer-address">
+										<span><i class="fas fa-map-marker-alt"></i></span>
+										<p> p.o.box 33354 kijitonyama,<br> dar-es-salaam </p>
 									</div>
-								</div>
-								<div class="col-md-6 col-lg-6">
-
-									<!-- Copyright Menu -->
-									<div class="copyright-menu">
-										<ul class="policy-menu">
-											<li><a href="term-condition.html">Terms and Conditions</a></li>
-											<li><a href="privacy-policy.html">Policy</a></li>
-										</ul>
-									</div>
-									<!-- /Copyright Menu -->
-
+									<p>
+										<i class="fas fa-phone-alt"></i>
+										+255 315 369 5943
+									</p>
+									<p class="mb-0">
+										<i class="fas fa-envelope"></i>
+										devs@example.com
+									</p>
 								</div>
 							</div>
+							<!-- /Footer Widget -->
+
 						</div>
-						<!-- /Copyright -->
 
 					</div>
 				</div>
-				<!-- /Footer Bottom -->
+			</div>
+			<!-- /Footer Top -->
 
-			</footer>
-			<!-- /Footer -->
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="container-fluid">
 
-		</div>
-		<!-- /Main Wrapper -->
+					<!-- Copyright -->
+					<div class="copyright">
+						<div class="row">
+							<div class="col-md-6 col-lg-6">
+								<div class="copyright-text">
+									<p class="mb-0"><a href="templateshub.net">Udicti Hub</a></p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-6">
 
-		<!-- jQuery -->
-		<script src="assets/js/jquery.min.js"></script>
+								<!-- Copyright Menu -->
+								<div class="copyright-menu">
+									<ul class="policy-menu">
+										<li><a href="term-condition.html">Terms and Conditions</a></li>
+										<li><a href="privacy-policy.html">Policy</a></li>
+									</ul>
+								</div>
+								<!-- /Copyright Menu -->
 
-		<!-- Bootstrap Core JS -->
-		<script src="assets/js/popper.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
+							</div>
+						</div>
+					</div>
+					<!-- /Copyright -->
 
-		<!-- Sticky Sidebar JS -->
-        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
-        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+				</div>
+			</div>
+			<!-- /Footer Bottom -->
 
-		<!-- Custom JS -->
-		<script src="assets/js/script.js"></script>
+		</footer>
+		<!-- /Footer -->
 
-	</body>
+	</div>
+	<!-- /Main Wrapper -->
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- Sticky Sidebar JS -->
+	<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+	<script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/script.js"></script>
+
+</body>
 
 <!-- doccure/patient-dashboard.html  30 Nov 2019 04:12:16 GMT -->
+
 </html>
